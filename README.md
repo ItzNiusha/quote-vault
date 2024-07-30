@@ -37,10 +37,3 @@ A React app that delivers inspirational quotes based on your mood. Whether you'r
 
 MIT License. See [LICENSE](LICENSE) for details.
 
-## Contact
-
-Questions? Email [your.email@example.com](mailto:your.email@example.com).
-
----
-
-Thanks for using FeelingWords!
