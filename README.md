@@ -21,10 +21,6 @@ A React app that delivers inspirational quotes based on your mood. Whether you'r
 2. **Submit**: Click "Send" or press "Enter".
 3. **Receive a Quote**: A relevant quote will appear in the chat box.
 
-## Code Overview
-
-- **`Quotes.js`**: Main component managing user input and quote generation.
-- **`Quotes.css`**: Styles for the chat interface and animated background.
 
 ## Contributing
 
