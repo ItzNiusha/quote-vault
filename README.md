@@ -9,20 +9,7 @@ A React app that delivers inspirational quotes based on your mood. Whether you'r
 
 ## Getting Started
 
-1. **Clone the Repo**
-
-   ```bash
-   git clone https://github.com/yourusername/feelingwords.git
-   cd feelingwords
-   ```
-
-2. **Install Dependencies**
-
-   ```bash
-   npm install
-   ```
-
-3. **Run the App**
+1.  **Run the App**
 
    ```bash
    npm start
