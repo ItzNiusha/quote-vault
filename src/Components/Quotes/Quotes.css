@@ -1,0 +1,84 @@
+.quotes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(45deg, #FFEB3B, #2196F3, #8BC34A, #9C27B0, #F44336, #E91E63);
+    background-size: 600% 600%;
+    animation: gradientAnimation 16s ease infinite;
+    font-family: 'Arial', sans-serif;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.chat-box {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    margin: 20px;
+    overflow-y: auto;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.bubble {
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
+
+.message.bot .bubble {
+    align-self: flex-start;
+    background-color: #beb8bf;
+}
+
+.message.user .bubble {
+    align-self: flex-end;
+    background-color: #504452;
+    color: white;
+}
+
+.input-container {
+    display: flex;
+    width: 100%;
+}
+
+.input-container input {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    font-size: 16px;
+}
+
+.input-container button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #504452;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
