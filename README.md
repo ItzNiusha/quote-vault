@@ -1,4 +1,4 @@
-# Essence Of Words
+# Quote-Vault
 
 A React app that delivers inspirational quotes based on your mood. Whether you're feeling joyful, sad, or anything in between, get a quote to lift your spirits or reflect on your emotions.
 
